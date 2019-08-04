@@ -81,3 +81,4 @@ def run(songs)
     play(songs)
   end
 end
+binding.pry
