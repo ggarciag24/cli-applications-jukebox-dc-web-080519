@@ -41,7 +41,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  song_name_or_num = STDIN.gets.strip
+  song_name_or_num = gets.strip
   if song_name_or_num.length == 1
     number = song_name_or_num.to_i
     if !!songs[number - 1] 
@@ -67,7 +67,7 @@ end
 
 def run(songs) 
   puts "Please enter a command:"
-  command = STDIN.gets.chomp
+  command = gets.chomp
   if command == "exit"
     exit_jukebox
   end
