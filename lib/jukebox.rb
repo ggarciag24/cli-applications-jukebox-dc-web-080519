@@ -45,7 +45,7 @@ def play(songs)
   if song_name_or_num.length == 1
     number = song_name_or_num.to_i
     if !!songs[number - 1] 
-      puts songs[number - 1]
+      puts "Playing #{songs[number - 1]}"
     else
       puts "Invalid input, please try again"
     end
