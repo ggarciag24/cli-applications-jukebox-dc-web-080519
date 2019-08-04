@@ -78,6 +78,6 @@ def run(songs)
     help
   end
   if command == "play"
-    play(1)
+    play(songs)
   end
 end
